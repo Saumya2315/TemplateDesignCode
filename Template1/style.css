@@ -1,0 +1,64 @@
+body,html{
+    height:100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    color:white;
+    height:100%;
+    /* width: 100%; */
+    background-image: url('Wallpaper.jpg');
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.header{
+    padding:15px;
+    /* display: inline-block; */
+}
+.header h4{
+    float: left;
+    display: inline;
+    /* border:2px solid yellow; */
+}
+.header ul{
+    float: right;
+    display: inline;
+    /* border: 2px solid yellow; */
+}
+.header ul li{
+    display: inline;
+    padding:20px;
+}
+.header ul li a {
+    text-decoration: none;
+    color:white;
+}
+.header ul li a:hover{
+    color: red;
+}
+h1{
+    padding-top:220px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin:30px;
+}
+.box{
+    text-align: center;
+}
+.box p{
+    border: 2px solid white;
+    display: inline;
+    margin:10px;
+    padding:15px;
+    border-radius: 20px;
+}
+.box p:hover{
+    background-color: white;
+    color: black;
+}
